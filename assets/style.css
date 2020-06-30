@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #1C1018;
+    color: #C3F73A;
+}
+
+.navbar .h1 {
+    font-size: xx-large;
+}
+
+#search {
+    background-color: #DDDDDF;
+}
