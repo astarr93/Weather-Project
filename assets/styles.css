@@ -5,6 +5,16 @@ body {
     overflow: hidden;
 }
 
+fieldset {
+    border-radius: 1em;
+    width: max-content;
+    font-family: sans-serif;
+}
+
+legend {
+    font-weight: bold;
+}
+
 #mapid {
     height: 100vh;
     position: relative;
@@ -17,13 +27,16 @@ body {
 }
 
 #tool {
-    background-image: linear-gradient(to bottom, #2D3047, #F7F9F9, #2D3047);
+    background-image: linear-gradient(to bottom, #2D3047, #2D3047);
+    color: whitesmoke;
     height: max-content;
-    left: 2%;
+    left: 0;
     opacity: .9;
     padding: 1rem;
+    padding-left: 2em;
+    padding-bottom: 2em;
     position: absolute;
-    top: 2%;
+    top: 0;
     width: max-content;
     z-index: 1;
 }
