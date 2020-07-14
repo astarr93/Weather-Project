@@ -1,0 +1,33 @@
+body {
+    font-size: 1vm;
+    font-family: 'Amiri', serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+#mapid {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    z-index: 0;
+}
+
+#searchBox {
+    max-width: 300px;
+}
+
+#tool {
+    background-image: linear-gradient(to bottom, #2D3047, #F7F9F9, #2D3047);
+    height: max-content;
+    left: 2%;
+    opacity: .9;
+    padding: 1rem;
+    position: absolute;
+    top: 2%;
+    width: max-content;
+    z-index: 1;
+}
+
+.leaflet-control-zoom {
+    display: none;
+}
