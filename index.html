@@ -23,8 +23,13 @@
             <form id="search">
                 <fieldset>
                     <legend>Search location:</legend>
-                    <label for="searchBox" class="sr-only">Prompt for Search By Location</label>
-                    <button type="submit" id="searchGeoButton" type="search">Search By Current Location</button>
+                    <!-- Search by zip code -->
+                    <label for="zip" class="sr-only">Enter Zip</label>
+                    <input type="text" id="userZip" placeholder="Enter Zip Code" value="">
+                    <button type="submit" id="zipSubmit">Search Zip</button>
+                    <!-- Search by sharing location -->
+                    <!-- <label for="findMe" class="sr-only">Find Me!</label>
+                    <button type="submit" id="findMe">Find Me!</button> -->
                 </fieldset>
             </form>
         </div>
